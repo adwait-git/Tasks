@@ -21,6 +21,8 @@ class JSONParserViewController: BaseViewController,UITableViewDelegate,UITableVi
         setupNavBarForLeftMenuIcon(title: "JSON Parsing")
         // Do any additional setup after loading the view.
     }
+  
+    
     func getQuotesFromJSON() {
         let urlPath = "http://www.recipepuppy.com/api/?i=onions,garlic&q=omelet&p=3"
         let url = NSURL(string: urlPath)

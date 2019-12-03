@@ -36,11 +36,11 @@ class SlideOutMenuViewController: UIViewController,UITableViewDelegate,UITableVi
         return UINavigationController(rootViewController: settingsVC)
     }()
 
-//    lazy var settingNavController: UINavigationController = {
-//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//        let settingsVC = storyboard.instantiateViewController(withIdentifier: "SignUpViewController") as! se
-//        return UINavigationController(rootViewController: settingsVC)
-//    }()
+    lazy var weatherHomeNav: UINavigationController = {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let weatherVC = storyboard.instantiateViewController(withIdentifier: "WeatherHomeViewController") as! WeatherHomeViewController
+        return UINavigationController(rootViewController: weatherVC)
+    }()
     
     
     override func viewWillAppear(_ animated: Bool)
@@ -69,7 +69,7 @@ class SlideOutMenuViewController: UIViewController,UITableViewDelegate,UITableVi
     
     
   //  var image_array = [#imageLiteral(resourceName: "Home"),#imageLiteral(resourceName: "Setting")]
-    var array : Array = ["XML Parsing","JSON Parsing","JSON Post Method"]
+    var array : Array = ["XML Parsing","JSON Parsing","JSON Post Method","Weather By MVC"]
     
     // MARK: - Table View Delegate And DataSources
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -104,6 +104,8 @@ class SlideOutMenuViewController: UIViewController,UITableViewDelegate,UITableVi
             drawerController?.mainViewController = jsonParsingNavView
         case 2:
            drawerController?.mainViewController = jsonPostNavView
+        case 3:
+              drawerController?.mainViewController = weatherHomeNav
         default:
             print("default")
         }
