@@ -21,6 +21,9 @@
 		A00FE2DA23957A7E00694763 /* jsonCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00FE2D923957A7E00694763 /* jsonCoder.swift */; };
 		A00FE2DC2395830800694763 /* JsonParsingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00FE2DB2395830800694763 /* JsonParsingTableViewCell.swift */; };
 		A00FE2DF2395A16E00694763 /* JsonParsingPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00FE2DE2395A16E00694763 /* JsonParsingPostViewController.swift */; };
+		A03364AF2396C75D00684D54 /* WeatherHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03364AE2396C75D00684D54 /* WeatherHomeViewController.swift */; };
+		A03364B12396C76A00684D54 /* WeatherDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03364B02396C76A00684D54 /* WeatherDetailViewController.swift */; };
+		A03364B32396D40400684D54 /* weatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03364B22396D40400684D54 /* weatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		A00FE2D923957A7E00694763 /* jsonCoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonCoder.swift; sourceTree = "<group>"; };
 		A00FE2DB2395830800694763 /* JsonParsingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParsingTableViewCell.swift; sourceTree = "<group>"; };
 		A00FE2DE2395A16E00694763 /* JsonParsingPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JsonParsingPostViewController.swift; path = TaskSix/JSONParser/JsonParsingPostViewController.swift; sourceTree = SOURCE_ROOT; };
+		A03364AE2396C75D00684D54 /* WeatherHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherHomeViewController.swift; sourceTree = "<group>"; };
+		A03364B02396C76A00684D54 /* WeatherDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailViewController.swift; sourceTree = "<group>"; };
+		A03364B22396D40400684D54 /* weatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,7 @@
 		A00FE2B6239566F900694763 /* TaskSix */ = {
 			isa = PBXGroup;
 			children = (
+				A03364AD2396C70800684D54 /* watherAppMVCArchitecture */,
 				A00FE2D6239571B000694763 /* JSONParser */,
 				A00FE2D223956E5300694763 /* XMLParsing */,
 				A00FE2C92395681A00694763 /* DrawerViewControllerClass */,
@@ -121,6 +128,16 @@
 				A00FE2DE2395A16E00694763 /* JsonParsingPostViewController.swift */,
 			);
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		A03364AD2396C70800684D54 /* watherAppMVCArchitecture */ = {
+			isa = PBXGroup;
+			children = (
+				A03364AE2396C75D00684D54 /* WeatherHomeViewController.swift */,
+				A03364B02396C76A00684D54 /* WeatherDetailViewController.swift */,
+				A03364B22396D40400684D54 /* weatherModel.swift */,
+			);
+			path = watherAppMVCArchitecture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,9 +214,12 @@
 			files = (
 				A00FE2CE2395681B00694763 /* KYDrawerController.swift in Sources */,
 				A00FE2DA23957A7E00694763 /* jsonCoder.swift in Sources */,
+				A03364B32396D40400684D54 /* weatherModel.swift in Sources */,
 				A00FE2D82395727100694763 /* JSONParserViewController.swift in Sources */,
 				A00FE2CF2395681B00694763 /* SideMenuCell.swift in Sources */,
 				A00FE2CD2395681B00694763 /* SlideOutMenuViewController.swift in Sources */,
+				A03364AF2396C75D00684D54 /* WeatherHomeViewController.swift in Sources */,
+				A03364B12396C76A00684D54 /* WeatherDetailViewController.swift in Sources */,
 				A00FE2BA239566F900694763 /* HomeViewController.swift in Sources */,
 				A00FE2B8239566F900694763 /* AppDelegate.swift in Sources */,
 				A00FE2DF2395A16E00694763 /* JsonParsingPostViewController.swift in Sources */,
