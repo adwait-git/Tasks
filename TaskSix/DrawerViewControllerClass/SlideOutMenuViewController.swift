@@ -30,6 +30,13 @@ class SlideOutMenuViewController: UIViewController,UITableViewDelegate,UITableVi
         return UINavigationController(rootViewController: settingsVC)
     }()
     
+    lazy var databaseNavController: UINavigationController = {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let settingsVC = storyboard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+        return UINavigationController(rootViewController: settingsVC)
+    }()
+
+    
     lazy var jsonParsingNavView: UINavigationController = {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let settingsVC = storyboard.instantiateViewController(withIdentifier: "JSONParserViewController") as! JSONParserViewController
@@ -69,7 +76,7 @@ class SlideOutMenuViewController: UIViewController,UITableViewDelegate,UITableVi
     
     
   //  var image_array = [#imageLiteral(resourceName: "Home"),#imageLiteral(resourceName: "Setting")]
-    var array : Array = ["XML Parsing","JSON Parsing","JSON Post Method","Weather By MVC"]
+    var array : Array = ["XML Parsing","JSON Parsing","JSON Post Method","Weather By MVC", "My SQL DataBase"]
     
     // MARK: - Table View Delegate And DataSources
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -106,6 +113,8 @@ class SlideOutMenuViewController: UIViewController,UITableViewDelegate,UITableVi
            drawerController?.mainViewController = jsonPostNavView
         case 3:
               drawerController?.mainViewController = weatherHomeNav
+        case 4:
+            drawerController?.mainViewController = databaseNavController
         default:
             print("default")
         }

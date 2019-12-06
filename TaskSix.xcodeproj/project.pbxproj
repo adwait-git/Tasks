@@ -24,6 +24,22 @@
 		A03364AF2396C75D00684D54 /* WeatherHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03364AE2396C75D00684D54 /* WeatherHomeViewController.swift */; };
 		A03364B12396C76A00684D54 /* WeatherDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03364B02396C76A00684D54 /* WeatherDetailViewController.swift */; };
 		A03364B32396D40400684D54 /* weatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03364B22396D40400684D54 /* weatherModel.swift */; };
+		A04022F5239AB086008F8361 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04022F2239AB086008F8361 /* ViewController.swift */; };
+		A04022F6239AB086008F8361 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04022F3239AB086008F8361 /* Util.swift */; };
+		A04022FC239AB094008F8361 /* FMDBDatabaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04022F7239AB094008F8361 /* FMDBDatabaseModel.swift */; };
+		A04022FD239AB094008F8361 /* Tbl_Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04022F8239AB094008F8361 /* Tbl_Info.swift */; };
+		A04022FE239AB094008F8361 /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04022F9239AB094008F8361 /* InfoTableViewCell.swift */; };
+		A04022FF239AB094008F8361 /* EditDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04022FA239AB094008F8361 /* EditDataViewController.swift */; };
+		A0402300239AB094008F8361 /* InsertDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04022FB239AB094008F8361 /* InsertDataViewController.swift */; };
+		A0402306239AB2BF008F8361 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A0402305239AB2BF008F8361 /* libsqlite3.0.tbd */; };
+		A0402308239AB2C5008F8361 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0402307239AB2C5008F8361 /* AVKit.framework */; };
+		A040230A239AB2D6008F8361 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0402309239AB2D6008F8361 /* AVFoundation.framework */; };
+		A0402318239AB2F4008F8361 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A040230D239AB2F4008F8361 /* FMDatabaseQueue.m */; };
+		A0402319239AB2F4008F8361 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A0402310239AB2F4008F8361 /* FMDatabaseAdditions.m */; };
+		A040231A239AB2F4008F8361 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A0402311239AB2F4008F8361 /* FMDatabase.m */; };
+		A040231B239AB2F4008F8361 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A0402315239AB2F4008F8361 /* FMDatabasePool.m */; };
+		A040231C239AB2F4008F8361 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A0402316239AB2F4008F8361 /* FMResultSet.m */; };
+		A0402322239AB451008F8361 /* FMDBDatabase.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A0402320239AB451008F8361 /* FMDBDatabase.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +49,6 @@
 		A00FE2BC239566F900694763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A00FE2BE239566FA00694763 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A00FE2C1239566FA00694763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A00FE2C3239566FA00694763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A00FE2CA2395681A00694763 /* SlideOutMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideOutMenuViewController.swift; sourceTree = "<group>"; };
 		A00FE2CB2395681A00694763 /* KYDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYDrawerController.swift; sourceTree = "<group>"; };
 		A00FE2CC2395681A00694763 /* SideMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuCell.swift; sourceTree = "<group>"; };
@@ -46,6 +61,31 @@
 		A03364AE2396C75D00684D54 /* WeatherHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherHomeViewController.swift; sourceTree = "<group>"; };
 		A03364B02396C76A00684D54 /* WeatherDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailViewController.swift; sourceTree = "<group>"; };
 		A03364B22396D40400684D54 /* weatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherModel.swift; sourceTree = "<group>"; };
+		A04022F2239AB086008F8361 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A04022F3239AB086008F8361 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		A04022F7239AB094008F8361 /* FMDBDatabaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDBDatabaseModel.swift; sourceTree = "<group>"; };
+		A04022F8239AB094008F8361 /* Tbl_Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tbl_Info.swift; sourceTree = "<group>"; };
+		A04022F9239AB094008F8361 /* InfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		A04022FA239AB094008F8361 /* EditDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDataViewController.swift; sourceTree = "<group>"; };
+		A04022FB239AB094008F8361 /* InsertDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertDataViewController.swift; sourceTree = "<group>"; };
+		A0402305239AB2BF008F8361 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		A0402307239AB2C5008F8361 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		A0402309239AB2D6008F8361 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A040230C239AB2F4008F8361 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		A040230D239AB2F4008F8361 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		A040230E239AB2F4008F8361 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		A040230F239AB2F4008F8361 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		A0402310239AB2F4008F8361 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		A0402311239AB2F4008F8361 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		A0402312239AB2F4008F8361 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		A0402313239AB2F4008F8361 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		A0402314239AB2F4008F8361 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A0402315239AB2F4008F8361 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		A0402316239AB2F4008F8361 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		A0402317239AB2F4008F8361 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A040231E239AB369008F8361 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0402320239AB451008F8361 /* FMDBDatabase.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = FMDBDatabase.sqlite; sourceTree = "<group>"; };
+		A0402321239AB451008F8361 /* FMDBDatabase_Demo_Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDBDatabase_Demo_Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +93,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A040230A239AB2D6008F8361 /* AVFoundation.framework in Frameworks */,
+				A0402308239AB2C5008F8361 /* AVKit.framework in Frameworks */,
+				A0402306239AB2BF008F8361 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +107,7 @@
 			children = (
 				A00FE2B6239566F900694763 /* TaskSix */,
 				A00FE2B5239566F900694763 /* Products */,
+				A0402304239AB2BE008F8361 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +122,9 @@
 		A00FE2B6239566F900694763 /* TaskSix */ = {
 			isa = PBXGroup;
 			children = (
+				A0402320239AB451008F8361 /* FMDBDatabase.sqlite */,
+				A0402321239AB451008F8361 /* FMDBDatabase_Demo_Bridging-Header.h */,
+				A04022F0239AB06E008F8361 /* Database */,
 				A03364AD2396C70800684D54 /* watherAppMVCArchitecture */,
 				A00FE2D6239571B000694763 /* JSONParser */,
 				A00FE2D223956E5300694763 /* XMLParsing */,
@@ -86,8 +133,8 @@
 				A00FE2BB239566F900694763 /* Main.storyboard */,
 				A00FE2BE239566FA00694763 /* Assets.xcassets */,
 				A00FE2C0239566FA00694763 /* LaunchScreen.storyboard */,
-				A00FE2C3239566FA00694763 /* Info.plist */,
 				A00FE2D023956B0B00694763 /* BaseViewController.swift */,
+				A040231E239AB369008F8361 /* Info.plist */,
 			);
 			path = TaskSix;
 			sourceTree = "<group>";
@@ -138,6 +185,50 @@
 				A03364B22396D40400684D54 /* weatherModel.swift */,
 			);
 			path = watherAppMVCArchitecture;
+			sourceTree = "<group>";
+		};
+		A04022F0239AB06E008F8361 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				A04022F3239AB086008F8361 /* Util.swift */,
+				A04022F2239AB086008F8361 /* ViewController.swift */,
+				A04022FA239AB094008F8361 /* EditDataViewController.swift */,
+				A04022F7239AB094008F8361 /* FMDBDatabaseModel.swift */,
+				A04022F9239AB094008F8361 /* InfoTableViewCell.swift */,
+				A04022FB239AB094008F8361 /* InsertDataViewController.swift */,
+				A04022F8239AB094008F8361 /* Tbl_Info.swift */,
+				A040230B239AB2F4008F8361 /* fmdb */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		A0402304239AB2BE008F8361 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0402309239AB2D6008F8361 /* AVFoundation.framework */,
+				A0402307239AB2C5008F8361 /* AVKit.framework */,
+				A0402305239AB2BF008F8361 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A040230B239AB2F4008F8361 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				A040230C239AB2F4008F8361 /* FMDatabase.h */,
+				A040230D239AB2F4008F8361 /* FMDatabaseQueue.m */,
+				A040230E239AB2F4008F8361 /* FMResultSet.h */,
+				A040230F239AB2F4008F8361 /* FMDatabasePool.h */,
+				A0402310239AB2F4008F8361 /* FMDatabaseAdditions.m */,
+				A0402311239AB2F4008F8361 /* FMDatabase.m */,
+				A0402312239AB2F4008F8361 /* FMDatabaseQueue.h */,
+				A0402313239AB2F4008F8361 /* FMDB.h */,
+				A0402314239AB2F4008F8361 /* FMDatabaseAdditions.h */,
+				A0402315239AB2F4008F8361 /* FMDatabasePool.m */,
+				A0402316239AB2F4008F8361 /* FMResultSet.m */,
+				A0402317239AB2F4008F8361 /* Info.plist */,
+			);
+			path = fmdb;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +292,7 @@
 				A00FE2C2239566FA00694763 /* LaunchScreen.storyboard in Resources */,
 				A00FE2BF239566FA00694763 /* Assets.xcassets in Resources */,
 				A00FE2D423956EC100694763 /* Books.xml in Resources */,
+				A0402322239AB451008F8361 /* FMDBDatabase.sqlite in Resources */,
 				A00FE2BD239566F900694763 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,16 +304,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A04022F5239AB086008F8361 /* ViewController.swift in Sources */,
 				A00FE2CE2395681B00694763 /* KYDrawerController.swift in Sources */,
+				A04022FF239AB094008F8361 /* EditDataViewController.swift in Sources */,
 				A00FE2DA23957A7E00694763 /* jsonCoder.swift in Sources */,
+				A04022F6239AB086008F8361 /* Util.swift in Sources */,
 				A03364B32396D40400684D54 /* weatherModel.swift in Sources */,
 				A00FE2D82395727100694763 /* JSONParserViewController.swift in Sources */,
+				A0402319239AB2F4008F8361 /* FMDatabaseAdditions.m in Sources */,
+				A040231A239AB2F4008F8361 /* FMDatabase.m in Sources */,
+				A0402300239AB094008F8361 /* InsertDataViewController.swift in Sources */,
 				A00FE2CF2395681B00694763 /* SideMenuCell.swift in Sources */,
 				A00FE2CD2395681B00694763 /* SlideOutMenuViewController.swift in Sources */,
 				A03364AF2396C75D00684D54 /* WeatherHomeViewController.swift in Sources */,
+				A040231B239AB2F4008F8361 /* FMDatabasePool.m in Sources */,
+				A04022FD239AB094008F8361 /* Tbl_Info.swift in Sources */,
+				A04022FE239AB094008F8361 /* InfoTableViewCell.swift in Sources */,
 				A03364B12396C76A00684D54 /* WeatherDetailViewController.swift in Sources */,
 				A00FE2BA239566F900694763 /* HomeViewController.swift in Sources */,
+				A04022FC239AB094008F8361 /* FMDBDatabaseModel.swift in Sources */,
+				A040231C239AB2F4008F8361 /* FMResultSet.m in Sources */,
 				A00FE2B8239566F900694763 /* AppDelegate.swift in Sources */,
+				A0402318239AB2F4008F8361 /* FMDatabaseQueue.m in Sources */,
 				A00FE2DF2395A16E00694763 /* JsonParsingPostViewController.swift in Sources */,
 				A00FE2D123956B0B00694763 /* BaseViewController.swift in Sources */,
 				A00FE2DC2395830800694763 /* JsonParsingTableViewCell.swift in Sources */,
@@ -308,6 +412,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -362,6 +467,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -378,7 +484,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Rohit-Gaikwad.TaskSix";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/FMDBDatabase_Demo_Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -395,7 +503,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Rohit-Gaikwad.TaskSix";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/FMDBDatabase_Demo_Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
