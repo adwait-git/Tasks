@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -40,9 +40,22 @@
 		A040231B239AB2F4008F8361 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A0402315239AB2F4008F8361 /* FMDatabasePool.m */; };
 		A040231C239AB2F4008F8361 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A0402316239AB2F4008F8361 /* FMResultSet.m */; };
 		A0402322239AB451008F8361 /* FMDBDatabase.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A0402320239AB451008F8361 /* FMDBDatabase.sqlite */; };
+		A098FDFD239BFAAD00A01C84 /* RealmHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098FDFC239BFAAD00A01C84 /* RealmHomeViewController.swift */; };
+		A098FDFF239BFC6D00A01C84 /* RealmDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098FDFE239BFC6D00A01C84 /* RealmDetailViewController.swift */; };
+		A098FE01239BFFB700A01C84 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098FE00239BFFB700A01C84 /* DBManager.swift */; };
+		A098FE03239C007000A01C84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A098FE02239C007000A01C84 /* UIKit.framework */; };
+		A098FE06239C046600A01C84 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098FE05239C046600A01C84 /* Item.swift */; };
+		A098FE08239C0A8400A01C84 /* RealMTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098FE07239C0A8400A01C84 /* RealMTableViewCell.swift */; };
+		A098FE0B239C359D00A01C84 /* UserDefaultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098FE0A239C359D00A01C84 /* UserDefaultsViewController.swift */; };
+		A098FE0D239C361300A01C84 /* UserDefaultsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098FE0C239C361300A01C84 /* UserDefaultsDetailViewController.swift */; };
+		A098FE10239C4B0A00A01C84 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098FE0F239C4B0A00A01C84 /* WebViewViewController.swift */; };
+		C2FE3CCBB89E336A842D61D1 /* Pods_TaskSix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2955756FD0BBABB4C06758F1 /* Pods_TaskSix.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2254C225E14AB07731FA1AFE /* Pods-TaskSix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskSix.release.xcconfig"; path = "Target Support Files/Pods-TaskSix/Pods-TaskSix.release.xcconfig"; sourceTree = "<group>"; };
+		2955756FD0BBABB4C06758F1 /* Pods_TaskSix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskSix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D65298667C93A83390083AB /* Pods-TaskSix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskSix.debug.xcconfig"; path = "Target Support Files/Pods-TaskSix/Pods-TaskSix.debug.xcconfig"; sourceTree = "<group>"; };
 		A00FE2B4239566F900694763 /* TaskSix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskSix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00FE2B7239566F900694763 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A00FE2B9239566F900694763 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +99,15 @@
 		A040231E239AB369008F8361 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0402320239AB451008F8361 /* FMDBDatabase.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = FMDBDatabase.sqlite; sourceTree = "<group>"; };
 		A0402321239AB451008F8361 /* FMDBDatabase_Demo_Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDBDatabase_Demo_Bridging-Header.h"; sourceTree = "<group>"; };
+		A098FDFC239BFAAD00A01C84 /* RealmHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHomeViewController.swift; sourceTree = "<group>"; };
+		A098FDFE239BFC6D00A01C84 /* RealmDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDetailViewController.swift; sourceTree = "<group>"; };
+		A098FE00239BFFB700A01C84 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		A098FE02239C007000A01C84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A098FE05239C046600A01C84 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A098FE07239C0A8400A01C84 /* RealMTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealMTableViewCell.swift; sourceTree = "<group>"; };
+		A098FE0A239C359D00A01C84 /* UserDefaultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsViewController.swift; sourceTree = "<group>"; };
+		A098FE0C239C361300A01C84 /* UserDefaultsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsDetailViewController.swift; sourceTree = "<group>"; };
+		A098FE0F239C4B0A00A01C84 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,9 +115,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A098FE03239C007000A01C84 /* UIKit.framework in Frameworks */,
 				A040230A239AB2D6008F8361 /* AVFoundation.framework in Frameworks */,
 				A0402308239AB2C5008F8361 /* AVKit.framework in Frameworks */,
 				A0402306239AB2BF008F8361 /* libsqlite3.0.tbd in Frameworks */,
+				C2FE3CCBB89E336A842D61D1 /* Pods_TaskSix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +132,7 @@
 				A00FE2B6239566F900694763 /* TaskSix */,
 				A00FE2B5239566F900694763 /* Products */,
 				A0402304239AB2BE008F8361 /* Frameworks */,
+				E978EC722ED0C13AE4750B5B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +147,9 @@
 		A00FE2B6239566F900694763 /* TaskSix */ = {
 			isa = PBXGroup;
 			children = (
+				A098FE0E239C4AF900A01C84 /* WebView */,
+				A098FE09239C34EE00A01C84 /* UserDefaults */,
+				A098FDFB239BFA5300A01C84 /* RealMDatabase */,
 				A0402320239AB451008F8361 /* FMDBDatabase.sqlite */,
 				A0402321239AB451008F8361 /* FMDBDatabase_Demo_Bridging-Header.h */,
 				A04022F0239AB06E008F8361 /* Database */,
@@ -205,9 +233,11 @@
 		A0402304239AB2BE008F8361 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A098FE02239C007000A01C84 /* UIKit.framework */,
 				A0402309239AB2D6008F8361 /* AVFoundation.framework */,
 				A0402307239AB2C5008F8361 /* AVKit.framework */,
 				A0402305239AB2BF008F8361 /* libsqlite3.0.tbd */,
+				2955756FD0BBABB4C06758F1 /* Pods_TaskSix.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -231,6 +261,44 @@
 			path = fmdb;
 			sourceTree = "<group>";
 		};
+		A098FDFB239BFA5300A01C84 /* RealMDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				A098FDFC239BFAAD00A01C84 /* RealmHomeViewController.swift */,
+				A098FDFE239BFC6D00A01C84 /* RealmDetailViewController.swift */,
+				A098FE00239BFFB700A01C84 /* DBManager.swift */,
+				A098FE05239C046600A01C84 /* Item.swift */,
+				A098FE07239C0A8400A01C84 /* RealMTableViewCell.swift */,
+			);
+			path = RealMDatabase;
+			sourceTree = "<group>";
+		};
+		A098FE09239C34EE00A01C84 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				A098FE0A239C359D00A01C84 /* UserDefaultsViewController.swift */,
+				A098FE0C239C361300A01C84 /* UserDefaultsDetailViewController.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		A098FE0E239C4AF900A01C84 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				A098FE0F239C4B0A00A01C84 /* WebViewViewController.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		E978EC722ED0C13AE4750B5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D65298667C93A83390083AB /* Pods-TaskSix.debug.xcconfig */,
+				2254C225E14AB07731FA1AFE /* Pods-TaskSix.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -238,9 +306,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A00FE2C6239566FA00694763 /* Build configuration list for PBXNativeTarget "TaskSix" */;
 			buildPhases = (
+				4482E5AF89F85130E9EDA642 /* [CP] Check Pods Manifest.lock */,
 				A00FE2B0239566F900694763 /* Sources */,
 				A00FE2B1239566F900694763 /* Frameworks */,
 				A00FE2B2239566F900694763 /* Resources */,
+				A2A2CDBDB39492E3CDB162F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -299,19 +369,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4482E5AF89F85130E9EDA642 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaskSix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2A2CDBDB39492E3CDB162F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskSix/Pods-TaskSix-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskSix/Pods-TaskSix-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaskSix/Pods-TaskSix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A00FE2B0239566F900694763 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A04022F5239AB086008F8361 /* ViewController.swift in Sources */,
+				A098FDFD239BFAAD00A01C84 /* RealmHomeViewController.swift in Sources */,
 				A00FE2CE2395681B00694763 /* KYDrawerController.swift in Sources */,
 				A04022FF239AB094008F8361 /* EditDataViewController.swift in Sources */,
+				A098FE10239C4B0A00A01C84 /* WebViewViewController.swift in Sources */,
 				A00FE2DA23957A7E00694763 /* jsonCoder.swift in Sources */,
 				A04022F6239AB086008F8361 /* Util.swift in Sources */,
 				A03364B32396D40400684D54 /* weatherModel.swift in Sources */,
 				A00FE2D82395727100694763 /* JSONParserViewController.swift in Sources */,
 				A0402319239AB2F4008F8361 /* FMDatabaseAdditions.m in Sources */,
+				A098FE08239C0A8400A01C84 /* RealMTableViewCell.swift in Sources */,
+				A098FE0D239C361300A01C84 /* UserDefaultsDetailViewController.swift in Sources */,
 				A040231A239AB2F4008F8361 /* FMDatabase.m in Sources */,
 				A0402300239AB094008F8361 /* InsertDataViewController.swift in Sources */,
 				A00FE2CF2395681B00694763 /* SideMenuCell.swift in Sources */,
@@ -322,13 +438,17 @@
 				A04022FE239AB094008F8361 /* InfoTableViewCell.swift in Sources */,
 				A03364B12396C76A00684D54 /* WeatherDetailViewController.swift in Sources */,
 				A00FE2BA239566F900694763 /* HomeViewController.swift in Sources */,
+				A098FDFF239BFC6D00A01C84 /* RealmDetailViewController.swift in Sources */,
 				A04022FC239AB094008F8361 /* FMDBDatabaseModel.swift in Sources */,
 				A040231C239AB2F4008F8361 /* FMResultSet.m in Sources */,
 				A00FE2B8239566F900694763 /* AppDelegate.swift in Sources */,
+				A098FE0B239C359D00A01C84 /* UserDefaultsViewController.swift in Sources */,
 				A0402318239AB2F4008F8361 /* FMDatabaseQueue.m in Sources */,
 				A00FE2DF2395A16E00694763 /* JsonParsingPostViewController.swift in Sources */,
 				A00FE2D123956B0B00694763 /* BaseViewController.swift in Sources */,
 				A00FE2DC2395830800694763 /* JsonParsingTableViewCell.swift in Sources */,
+				A098FE01239BFFB700A01C84 /* DBManager.swift in Sources */,
+				A098FE06239C046600A01C84 /* Item.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +594,7 @@
 		};
 		A00FE2C7239566FA00694763 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D65298667C93A83390083AB /* Pods-TaskSix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -493,6 +614,7 @@
 		};
 		A00FE2C8239566FA00694763 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2254C225E14AB07731FA1AFE /* Pods-TaskSix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

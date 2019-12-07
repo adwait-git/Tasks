@@ -21,7 +21,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         drawerController = getDrawerViewControler()
         window?.rootViewController = drawerController
         window?.makeKeyAndVisible()
-
         // Override point for customization after application launch.
         return true
     }

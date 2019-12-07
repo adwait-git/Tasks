@@ -49,6 +49,18 @@ class SlideOutMenuViewController: UIViewController,UITableViewDelegate,UITableVi
         return UINavigationController(rootViewController: weatherVC)
     }()
     
+    lazy var userDefaultsNav: UINavigationController = {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let weatherVC = storyboard.instantiateViewController(withIdentifier: "UserDefaultsViewController") as! UserDefaultsViewController
+        return UINavigationController(rootViewController: weatherVC)
+    }()
+    
+    lazy var realMHomeNav: UINavigationController = {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let weatherVC = storyboard.instantiateViewController(withIdentifier: "RealmHomeViewController") as! RealmHomeViewController
+        return UINavigationController(rootViewController: weatherVC)
+    }()
+    
     
     override func viewWillAppear(_ animated: Bool)
     {
@@ -76,7 +88,7 @@ class SlideOutMenuViewController: UIViewController,UITableViewDelegate,UITableVi
     
     
   //  var image_array = [#imageLiteral(resourceName: "Home"),#imageLiteral(resourceName: "Setting")]
-    var array : Array = ["XML Parsing","JSON Parsing","JSON Post Method","Weather By MVC", "My SQL DataBase"]
+    var array : Array = ["XML Parsing","JSON Parsing","JSON Post Method","Weather By MVC", "My SQL DataBase","Real M","User Defaults"]
     
     // MARK: - Table View Delegate And DataSources
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -115,6 +127,10 @@ class SlideOutMenuViewController: UIViewController,UITableViewDelegate,UITableVi
               drawerController?.mainViewController = weatherHomeNav
         case 4:
             drawerController?.mainViewController = databaseNavController
+        case 5 :
+            drawerController?.mainViewController = realMHomeNav
+        case 6 :
+            drawerController?.mainViewController = userDefaultsNav
         default:
             print("default")
         }

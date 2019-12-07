@@ -14,6 +14,7 @@ class ViewController: BaseViewController,UITableViewDelegate,UITableViewDataSour
     var GetAllDataInfo  = NSMutableArray()
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupNavBarForLeftMenuIcon(title: "Database Sql")
         // Do any additional setup after loading the view, typically from a nib.
     }
     override func viewWillAppear(_ animated: Bool) {

@@ -54,4 +54,13 @@ class BaseViewController: UIViewController {
     @objc func backAction(){
         self.navigationController?.popViewController(animated: true)
     }
+    
+    func invokeAlertMethod(strTitle: NSString, strBody: NSString, delegate: AnyObject?) {
+        let alert: UIAlertView = UIAlertView()
+        alert.message = strBody as String
+        alert.title = strTitle as String
+        alert.delegate = delegate
+        alert.addButton(withTitle: "Ok")
+        alert.show()
+    }
 }
